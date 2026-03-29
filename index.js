@@ -7,16 +7,16 @@ const app = express();
 const CONFIG = {
   // You can include view-source: here, the bot will automatically remove it to fetch,
   // and will not include it in the Telegram message.
-  targetUrl: "view-source:https://example.com", 
+  targetUrl: "view-source:https://in.bookmyshow.com/sports/mumbai-indians-vs-royal-challengers-bengaluru/ET00491196", 
   
-  searchText: "Specific Text Here", // Case insensitive exact match
+  searchText: "Sold out", // Case insensitive exact match
   
   // mode can be "present" (alert if found) OR "absent" (alert if NOT found)
   mode: "present", 
   
   // Interval in minutes and seconds
   intervalMin: 1,
-  intervalSec: 30,
+  intervalSec: 00,
 
   // Telegram Credentials (Provided by you)
   telegramToken: "8578527102:AAF0q3vpxQ-SNkzpoFfpoyTUZrFAbNpvoTc",
